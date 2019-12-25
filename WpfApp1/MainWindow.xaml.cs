@@ -24,5 +24,10 @@ namespace WpfApp1
         {
             InitializeComponent();
         }
+
+        private void ApplyButton_OnClick(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("hello world");
+        }
     }
 }
